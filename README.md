@@ -4,7 +4,7 @@ Microblogging site
 The task this week was to build a microblogging website that allow users to submit posts,view posts and also delete posts. 
 # THEME
 Love letters :heart:
-![](https://user-images.githubusercontent.com/60614102/89587346-5f30f180-d839-11ea-8103-4987d7fa8b6e.png =100x20)
+<img src='https://user-images.githubusercontent.com/60614102/89587346-5f30f180-d839-11ea-8103-4987d7fa8b6e.png =100x20' width='100' height='100'>
 ![](https://user-images.githubusercontent.com/60614102/89587353-622be200-d839-11ea-899e-4c8575ae0088.png)
 ![](https://user-images.githubusercontent.com/60614102/89587364-65bf6900-d839-11ea-80e4-e311c2a0604f.png)
 
