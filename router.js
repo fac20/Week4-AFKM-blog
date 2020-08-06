@@ -1,18 +1,20 @@
-// const types = {
-//     html: "text/html",
-//     css: "text/css",
-//     js: "application/javascipt"
-// };
 
+const formHandler = require("./handlers/form")
 const homeHandler = require("./handlers/home");
+const publicHandler = require('./handlers/public');
 
-function router(request, response) => {
+function router(request, response) {
  
     const url = request.url;
-    if (url === '/home.html'){
+    if (url === '/'){
         homeHandler(request,response);
+    } else if (url.includes('public')) {
+        publicHandler(request, response)
+    } else if (url.includes('form')) {
+        formHandler(request, response)
     }
-
+    
 }
 
 module.exports = router;
+

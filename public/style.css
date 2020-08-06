@@ -6,7 +6,29 @@
 
 body{
     background:var(--background);
+    color:var(--font-colour);
+  
 }
 nav{
     height:20vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    width:50vw;
+    height:30vh;
+}
+.logo-link {
+    width:25vw;
+    height:15vh;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    height:15vh;
+    width:100vw;
+    bottom:0;
 }
