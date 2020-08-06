@@ -1,8 +1,6 @@
 const fs = require("fs")
 const path = require("path")
-let getCount = require("../model");
-let increment = require("../model");
-let posts = require("../model");
+let { getCount, increment, posts } = require("../model");
 
 function submitHandler(request, response) {
     let formBody = ""; 

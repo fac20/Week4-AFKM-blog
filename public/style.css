@@ -35,3 +35,9 @@ footer{
 #loveNote{
     border: black 2px solid;
 }
+
+
+.form__post--love_note{
+border-radius:80px;
+border: solid #b30000 3px;
+}

@@ -3,7 +3,6 @@ const formHandler = require("./handlers/form");
 const homeHandler = require("./handlers/home");
 const publicHandler = require("./handlers/public");
 const submitHandler = require("./handlers/submit");
-const getPostsHandlers = require("./handers/getposts.js")
 const addPostHandler = require("./handlers/getposts")
 
 function router(request, response) {
