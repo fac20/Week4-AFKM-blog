@@ -1,5 +1,8 @@
 const fs = require("fs")
 const path = require("path")
+let getCount = require("..model");
+let increment = require("../model");
+let posts = require("../model");
 
 function submitHandler(request, response) {
     let formBody = ""; 
@@ -13,19 +16,21 @@ function submitHandler(request, response) {
         const data = new URLSearchParams(formBody);
         const name = data.get("name")
         const note = data.get("loveNote")
-        console.log(data)
-        console.log(note)
-        console.log(name)
-        response.writeHead(200, {"content-type": "text/html"})
-        response.end(`thanks for submitting your note to ${name}`)
-    }
-    )
+        increment(); 
+        const id = getCount(); 
+        const newNote = {
+            recipient: name,
+            message: note 
+        };
+        posts[id]=newNote
+        response.writeHead(302, {location : "/"})
+        response.end();
+    })
+}
 
-    //Co-authored-by: name <name@example.com>
-//Co-authored-by: another-name <another-name@example.com>"
 
 //save the info in variables, 
 //send it on a route and get that route from the client side 
-}
+
 
 module.exports = submitHandler;
