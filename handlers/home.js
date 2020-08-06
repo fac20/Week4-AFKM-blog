@@ -4,7 +4,7 @@ work with your computers file system */
 const path = require("path");
 
 function homeHandler(request, response) {
-  fs.readFile(path.join(__dirname,'..', "public", "home.html"), (error, file) => {
+  fs.readFile(path.join(__dirname,'..', "public", 'home.html'), (error, file) => {
     if (error) {
       console.log(error);
       response.writeHead(404, { "content-type": "text/html" });

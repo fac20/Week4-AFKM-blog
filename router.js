@@ -12,7 +12,7 @@ function router(request, response) {
         homeHandler(request,response);
     } else if (url.includes('public')) {
         publicHandler(request, response)
-    } else if (url.includes('form')) {
+    } else if (url === '/form') {
         formHandler(request, response)
     } else if (method === "POST" && url === "/submit") {
         submitHandler(request, response);
