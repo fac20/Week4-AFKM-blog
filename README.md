@@ -4,9 +4,9 @@ Microblogging site
 The task this week was to build a microblogging website that allow users to submit posts,view posts and also delete posts. 
 # THEME
 Love letters :heart:
-![](Screen Shot 2020-08-06 at 22.54.35)
-![](Screen Shot 2020-08-06 at 22.54.21)
-![](Screen Shot 2020-08-06 at 22.54.11)
+![](/images/Screen Shot 2020-08-06 at 22.54.35.png)
+![](/images/Screen Shot 2020-08-06 at 22.54.21.png)
+![](/images/Screen Shot 2020-08-06 at 22.54.11.png)
 
 # USER STORIES
 - As an opinionated person, I want to: post my thoughts so others can read them
