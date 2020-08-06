@@ -1,6 +1,6 @@
 const fs = require("fs")
 const path = require("path")
-let getCount = require("..model");
+let getCount = require("../model");
 let increment = require("../model");
 let posts = require("../model");
 
@@ -23,6 +23,7 @@ function submitHandler(request, response) {
             message: note 
         };
         posts[id]=newNote
+        console.log(posts)
         response.writeHead(302, {location : "/"})
         response.end();
     })
