@@ -17,12 +17,12 @@ function submitHandler(request, response) {
         const name = data.get("name")
         const note = data.get("loveNote")
         increment(); 
-        const id = getCount(); 
+        const postNumber = getCount(); 
         const newNote = {
             recipient: name,
             message: note 
         };
-        posts[id]=newNote
+        posts[postNumber]=newNote
         console.log(posts)
         response.writeHead(302, {location : "/"})
         response.end();
