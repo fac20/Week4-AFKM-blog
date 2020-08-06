@@ -10,23 +10,30 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height:100vh;
     width: 100vw;
-  
+    color:var(--font-colour);
+    font-family: 'Lemonada', cursive;
+    font-weight:700;
 }
 nav{
     height:20vh;
     width:100vw;
     display:flex;
     justify-content: center;
+    /* border:solid 3px #b30000; */
+    top:0;
+    position: absolute;
 }
 
 .logo{
-    width:50vw;
-    height:30vh;
+    width:55vw;
+    height:20vh;
+    /* border:solid 3px #b30000; */
 }
 .logo-link {
-    width:25vw;
+    width:30vw;
     height:15vh;
 }
 footer{
@@ -40,6 +47,8 @@ footer{
 
 .form__post--love_note{
 border-radius:80px;
+text-align: center;
+width:7vw;
 
 }
 
@@ -48,20 +57,48 @@ border-radius:80px;
     background: var(--background);
     border-radius:80px;
     height:10vh;
-    width:30vw;
+    width:70vw;
+    color:var(--font-colour);
+    font-family: 'Lemonada', cursive;
+    font-weight: 700;
+    text-align: center;
 }
-#submit{
+#submit {
     border: solid #b30000 3px; 
     background: var(--background);
     border-radius:80px;
     margin:3vw;
+    color:var(--font-colour);
+    font-family: 'Lemonada', cursive;
+    font-weight:700;
+}
+.home{
+    border: solid #b30000 3px; 
+    background: var(--background);
+    border-radius:80px;
+    margin:1vw;
+    color:var(--font-colour);
+    font-family: 'Lemonada', cursive;
+    font-weight:700;
 }
 form{
-   width:50vw;
-   height:50vh;
+   width:80vw;
+   height:80vh;
    display:flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
+@media all and (min-width:377px){
+    #loveNote, #name{
+     
+        height:10vh;
+        width:40vw;
+    }
+    .logo{
+        width:60vw;
+        height:30vh;
+        /* border:solid 3px #b30000; */
+    }
+    }

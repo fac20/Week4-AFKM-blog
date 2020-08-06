@@ -7,7 +7,8 @@ const types = {
     css: "text/css",
     js: "application/javascipt",
     png: "image/png",
-    jpg: 'image/jpg'
+    jpg: 'image/jpg',
+    ico :"image/x-icon"
 };
 
 function publicHandler(request, response) {
