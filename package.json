@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/fac20/Week4-AFKM-blog/issues"
   },
-  "homepage": "https://github.com/fac20/Week4-AFKM-blog#readme"
+  "homepage": "https://github.com/fac20/Week4-AFKM-blog#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }

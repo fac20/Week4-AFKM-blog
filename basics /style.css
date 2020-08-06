@@ -7,3 +7,6 @@
 body{
     background:var(--background);
 }
+nav{
+    height:20vh;
+}
