@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 function formHandler(request, response) {
-  fs.readFile(path.join(__dirname,'..', "public", "form.html"), (error, file) => {
+  fs.readFile(path.join(__dirname,'..', "public", 'form.html'), (error, file) => {
     if (error) {
       console.log(error);
       response.writeHead(404, { "content-type": "text/html" });
