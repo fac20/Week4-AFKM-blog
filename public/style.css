@@ -7,6 +7,11 @@
 body{
     background:var(--background);
     color:var(--font-colour);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
   
 }
 nav{
@@ -32,12 +37,31 @@ footer{
     width:100vw;
     bottom:0;
 }
-#loveNote{
-    border: black 2px solid;
-}
-
 
 .form__post--love_note{
 border-radius:80px;
-border: solid #b30000 3px;
+
 }
+
+#loveNote, #name{
+    border: solid #b30000 3px; 
+    background: var(--background);
+    border-radius:80px;
+    height:10vh;
+    width:30vw;
+}
+#submit{
+    border: solid #b30000 3px; 
+    background: var(--background);
+    border-radius:80px;
+    margin:3vw;
+}
+form{
+   width:50vw;
+   height:50vh;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
