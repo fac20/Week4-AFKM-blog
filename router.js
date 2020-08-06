@@ -3,6 +3,7 @@ const formHandler = require("./handlers/form");
 const homeHandler = require("./handlers/home");
 const publicHandler = require("./handlers/public");
 const submitHandler = require("./handlers/submit");
+const getPostsHandlers = require("./handers/getposts.js")
 
 function router(request, response) {
  
@@ -16,7 +17,8 @@ function router(request, response) {
         formHandler(request, response)
     } else if (method === "POST" && url === "/submit") {
         submitHandler(request, response);
+    } else if (method === "GET" && url === "/submit") { 
+    addPostHandler(request, response);
+  } 
 }
-}
-
 module.exports = router;
