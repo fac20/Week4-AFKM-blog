@@ -4,10 +4,7 @@ Microblogging site
 The task this week was to build a microblogging website that allow users to submit posts,view posts and also delete posts. 
 # THEME
 Love letters :heart:
-![gjc](/public/images/Screen Shot 2020-08-06 at 22.54.35.png)
-![](/images/Screen Shot 2020-08-06 at 22.54.21.png)
-![](Week4-AFKM-blog/public/images/Screen Shot 2020-08-06 at 22.54.11.png)
-![](https://res.cloudinary.com/psychlopaedia/image/upload/w_1200,h_500,c_fill,g_face/q_40/remote/2018/12/Dec-santa-e1545018965397.jpg)
+![](https://user-images.githubusercontent.com/60614102/89587346-5f30f180-d839-11ea-8103-4987d7fa8b6e.png)
 
 # USER STORIES
 - As an opinionated person, I want to: post my thoughts so others can read them
