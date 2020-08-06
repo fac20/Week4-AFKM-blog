@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<body>
+    <div class="heart">
+<form>
+    <label for="name">TO:</label><br>
+    <input type="text" id="name" name="name" placeholder=""><br>
+    <label for="loveNote" class ="form__post-love_note--label">Love Note:</label>
+    <textarea maxlength="140" onkeyup="countChars(this);" id="loveNote" class="form__post--love_note" name="loveNote" rows="8" cols="25" required> </textarea>
+    <p id="charNum">0 / 140</p>
+    <button id="submit" class="form__post-love_note--submit" type="submit">Post</button>
+</form>
+</div>
+<div id="count">
+    <!-- <span id="current">0</span>
+    <span id="maximum">/ 140</span> -->
+  </div>
+
+<script>
+   function countChars(obj){
+    var maxLength = 140;
+    var strLength = obj.value.length;
+    
+    // if(strLength > maxLength){
+        document.getElementById("charNum").innerHTML = '<span >'+strLength+' / '+maxLength+' </span>';
+    // }else{
+    //     document.getElementById("charNum").innerHTML = strLength+' / '+maxLength+' characters';
+    // }
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
