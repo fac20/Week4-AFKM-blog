@@ -1,6 +1,6 @@
 let counter = 0;
-let posts = {};
-console.log(posts);
+let posts = [];
+// console.log(posts);
 function increment() {
     counter++
 }

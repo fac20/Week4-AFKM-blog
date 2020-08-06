@@ -19,6 +19,6 @@ function router(request, response) {
         submitHandler(request, response);
     } else if (method === "GET" && url === "/submit") { 
     addPostHandler(request, response);  
-  } 
+  }   
 }
 module.exports = router;
