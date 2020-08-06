@@ -1,0 +1,26 @@
+{
+  "name": "pwd",
+  "version": "1.0.0",
+  "description": "Microblogging site",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac20/Week4-AFKM-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac20/Week4-AFKM-blog/issues"
+  },
+  "homepage": "https://github.com/fac20/Week4-AFKM-blog#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+:root{
+    --background: #e6e1dd;
+    --logo-red:#b30000;
+    --font-colour:#b30000;
+}
+
+body{
+    background:var(--background);
+}
+nav{
+    height:20vh;
+}
