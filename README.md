@@ -2,6 +2,10 @@
 Microblogging site
 # INTRO
 The task this week was to build a microblogging website that allow users to submit posts,view posts and also delete posts. 
+Project was not completed so the app is not completely functional.
+If cloning the app to run it you need to enter the follwing to reach each page:
+- /path/home.html. => home landing page.
+- /path/form.html => form page.
 # THEME
 Love letters :heart:
 
