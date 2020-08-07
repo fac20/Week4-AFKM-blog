@@ -3,9 +3,12 @@ Microblogging site
 # INTRO
 The task this week was to build a microblogging website that allow users to submit posts,view posts and also delete posts. 
 Project was not completed so the app is not completely functional.
+
 If cloning the app to run it you need to enter the follwing to reach each page:
+- to run your code people should clone your repo, and then run npm install.
 - /path/home.html. => home landing page.
 - /path/form.html => form page.
+- you need to search /submit to see the array of submitted posts.
 # THEME
 Love letters :heart:
 
