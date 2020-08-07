@@ -5,7 +5,7 @@ const posts = require('../model');
 function messageHandler (request,handler){
   const filePath = path.join(__dirname, 'public', 'home.html');
   console.log(filePath);
-  fs.readFile(filePath, 'utf-8', (error,file))=>{
+  fs.readFile(filePath, 'utf-8', (error,file) => {
     if(error){
       console.error(error);
     }else {
@@ -21,7 +21,7 @@ function messageHandler (request,handler){
       response.writeHead(200, { "content-type": "text/html" });
       response.end(replace);
     }
-  }
+  })
 
 }
 // const template = document.getElementById("template");
