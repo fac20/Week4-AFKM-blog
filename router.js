@@ -9,7 +9,10 @@ function router(request, response) {
  
     const url = request.url;
     const method = request.method;
-    if (url === '/'){
+    if (error) {
+        response.writeHead(404, { "content-type": "text/html" });
+        response.end("<h1>Not Found</h1>");
+    } else if (url === '/') {
         homeHandler(request,response);
     } else if (url.includes('public')) {
         publicHandler(request, response)
